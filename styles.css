@@ -157,6 +157,10 @@ justify-content: space-between;
   background-color: #FFB300;
   text-align: center;
 }
+.iren-juce{
+  display:flex;
+  flex-wrap:wrap;
+}
 .juce-summary{
   font-family: 'Kurale', serif;
   font-size: 35px;
