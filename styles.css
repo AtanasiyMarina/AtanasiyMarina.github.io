@@ -1,0 +1,239 @@
+
+.header-block{
+  background-image: url('images/white-roses-header.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 150px;
+}
+.main-title{
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #f44336;
+  text-shadow: 4px 4px white;
+  text-align: center;
+}
+
+.gifts-block{
+background-color: #FFDD99;
+display:flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+.road-img{
+  width: 370px;
+  height: 500px;
+}
+.clock-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.clock-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 0px auto 0px;;
+
+}
+.iren-span{
+  color: red;
+  font-size: 40px;
+  font-family: 'Marck Script', serif;
+}
+.clock-summary{
+  font-family: 'Neucha', serif ;
+  margin-top: 50px;
+  margin-bottom:0px;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.cool-block{
+  margin-top: -5px;
+  display: flex;
+  flex-direction:column;
+  background-color: #C2E6FE;
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+.mini-container{
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+.poem-container{
+  display: flex;
+  flex-direction: column;
+}
+.ira-sher-img{
+  width: 300px;
+  height: 350px;
+}
+.ira-moon-img{
+  width: 350px;
+  height: 350px;
+}
+.ira-gif{
+  width: 300px;
+  height: 350px;
+}
+.krok-img{
+  width: 350px;
+  height: 320px;
+}
+.poem{
+  font-family: 'Kurale', serif;
+  font-size: 45px;
+  color: #673AB7;
+  text-shadow: 4px 4px #F48FB1;
+}
+.border-img{
+  border-radius: 25px;
+}
+.hearts-img{
+  margin: 0 auto;
+  width: 200px;
+  height: 170px;
+}
+
+.sherlock-block{
+  background-image: url('images/sherlock.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 550px;
+  background-color: #9E9E9E;
+  background-blend-mode: multiply;
+  padding: 65px 30px 25px;
+}
+.main-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.gif-friend{
+  width: 415px;
+  height: 500px;
+}
+.cngrt-container{
+  display:flex;
+  flex-wrap: nowrap;
+}
+.cngrt-block{
+  width: 415px;
+  background-color: #f48fb16e;
+}
+.cat{
+  width: 35px;
+  height: 35px;
+}
+.cngrt-items{
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 0px;
+  color: #80CBC4;
+}
+.no-space{
+  margin-top: 0px;
+}
+.cngrt-header{
+  font-family:'Kurale', serif;
+  font-size: 25px;
+  color: #E3F2FD;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px #455A64;
+  text-align: center;
+}
+
+
+.juce-block{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #FFB300;
+  text-align: center;
+}
+.juce-summary{
+  font-family: 'Kurale', serif;
+  font-size: 35px;
+  color: #673AB7;
+  text-shadow: 4px 4px #F48FB1;
+  margin-bottom: 15px;
+}
+.juce-img{
+  width: 300px;
+  height: 500px;
+}
+.ira-juce{
+  width: 200px;
+  height: 220px;
+}
+.feedback-block{
+  padding-top: 40px;
+  background-image:url('images/footer-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-summary ,.footer-span{
+  font-family: 'Kurale', serif;
+  font-size: 25px;
+  color: #673AB7;
+  text-align: center;
+  color: #e0f2ff;
+}
+.feedback{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.inputs{
+  width: 350px;
+  height: 45px;
+  margin-bottom: 80px;
+  font-family: "Poppins" ,serif;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #ffffe0de;
+}
+.right-input{
+  margin-right: 45px;
+}
+.footer-span{
+  font-size: 15px;
+  font-weight: bold;
+  color: #1a237e;
+}
+.message{
+  width: 750px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 35px;
+  font-family: "Poppins" ,serif;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #ffffe0de;
+}
+.youtube{
+  text-align: center;
+  margin-bottom:75px;
+  margin-top: 35px;
+}
+.button-footer{
+    padding: 15px 40px;
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #64b5f6;
+    border: 0px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
