@@ -175,6 +175,7 @@ justify-content: space-between;
 .ira-juce{
   width: 200px;
   height: 220px;
+  margin: 0 auto;
 }
 .feedback-block{
   padding-top: 40px;
