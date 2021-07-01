@@ -763,6 +763,9 @@ body{
     .testimonials-line:after{
         top: 85px;
     }
+    .div-wrapper{
+        margin: 0;
+    }
 }
 
 @media (max-width: 329px) {
