@@ -223,7 +223,7 @@ body{
     background-color: #FF8B38;
     width: 100%;
     padding: 15px 0;
-    margin-top: 25px;
+    margin: 15px 0 0;
     outline: none;
     border: none;
     border-radius: 0 0 3px 3px;
@@ -329,7 +329,7 @@ body{
     font-weight: 400;
 }
 .privilege-img{
-   height: 30px;
+    height: 30px;
 }
 
 .prices-block{
@@ -482,6 +482,8 @@ body{
     width: 100%;
     outline-color: #FF8B38;
     box-sizing: border-box;
+    border: 0;
+    border-radius: 3px;
 }
 .contact-item:before{
     content: '';
@@ -495,7 +497,7 @@ body{
     background-position-x: right;
     background-position-y: center;
     background-size: 25px 25px;
-    border-left: 1px solid #939292;
+    border-left: 1px solid #FF8B38;
 }
 .subject-input{
     width: 465px;
@@ -528,27 +530,17 @@ body{
     height: 150px;
     padding-top: 5px;
 }
+.btn-wrapper{
+    width: 100%;
+}
 .send-button{
     padding: 10px 30px;
 }
-.div-wrapper{
+.form-wrapper{
     max-width: 500px;
     margin: 0 auto;
 }
-.common-div{
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 0 3px;
-}
-.first-div{
-    transform: rotate(357deg);
-}
-.second-div{
-    transform: rotate(5deg);
-}
-.main-div{
-    transform: rotate(358deg);
-}
+
 
 
 .social-block{
@@ -582,7 +574,7 @@ body{
     background-color: darkred;
 }
 
-              /*MEDIA_QUERIES*/
+/*MEDIA_QUERIES*/
 
 
 @media (max-width: 767px) {
@@ -604,6 +596,10 @@ body{
     }
     .container{
         z-index: 4;
+    }
+    .nav-block{
+        height: 35px;
+        padding-top: 5px;
     }
     .nav-items{
         position: fixed;
@@ -665,6 +661,15 @@ body{
     .burger-menu.active span{
         transform: scale(0);
     }
+    .about-container{
+        text-align: center;
+    }
+    .form-container{
+        align-self: center;
+    }
+    .button-download{
+        margin-bottom: 25px;
+    }
     .sub-list-section{
         flex-direction: column;
         align-items: center;
@@ -716,31 +721,21 @@ body{
         align-items: center;
     }
     .price-card{
-        width: 100%;
+        width: 70%;
         margin-bottom: 25px;
     }
     .testimonial{
-        margin-bottom: 30px;
+        margin-bottom: 45px;
     }
     .email-item, .name-item{
         width: 100%;
     }
-    .div-wrapper{
+    .form-wrapper{
         width: 90%;
     }
 }
 
 @media (max-width: 614px) {
-    .about-container{
-        flex-direction: column;
-        text-align: center;
-    }
-    .form-container{
-        align-self: center;
-    }
-    .button-download{
-        margin-bottom: 25px;
-    }
     .privilege-item{
         width: 75%;
     }
@@ -760,11 +755,11 @@ body{
 }
 
 @media (max-width: 422px) {
+    .price-card{
+        width: 100%;
+    }
     .testimonials-line:after{
         top: 85px;
-    }
-    .div-wrapper{
-        margin: 0;
     }
 }
 
@@ -775,12 +770,12 @@ body{
 }
 
 
-          /*CSS-ANIMATION*/
+/*CSS-ANIMATION*/
 
 
 @keyframes slow-effect {
     0%{
-       opacity: 0;
+        opacity: 0;
     }
     100%{
         opacity: 1;
