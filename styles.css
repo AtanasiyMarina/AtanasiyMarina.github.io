@@ -141,6 +141,7 @@ body{
     padding-top: 50px;
     background-image: url("images/about-image.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-container{
     margin-top: 50px;
